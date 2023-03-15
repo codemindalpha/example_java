@@ -1,4 +1,4 @@
-/*
+package testcases.C002D_ASSTOPRIVA;/*
 Filename : CWE496_Public_Data_Assigned_to_Private_Array_Typed_Field__Environment_2_assign_01_bad.java
 */
 
@@ -20,7 +20,7 @@ import javax.servlet.http.*;
 
 import java.util.logging.Logger;
 
-public class C002D_CWE496_Public_Data_Assigned_to_Private_Array_Typed_Field__Environment_2_assign_01_bad extends AbstractTestCase
+public class C002D_CWE496_Public_Data_Assigned_to_Private_Array_Typed_Field__Environment_2_assign_01_bad
 {
 
 
@@ -48,18 +48,5 @@ public class C002D_CWE496_Public_Data_Assigned_to_Private_Array_Typed_Field__Env
 
     }
 
-
-    
-    
-
-    /* Below is the main(). It is only used when building this testcase on
-       its own for testing or for building a binary to use in testing binary
-       analysis tools. It is not used when compiling all the testcases as one
-       application, which is how source code analysis tools are tested. */
-    public static void main(String[] args) throws ClassNotFoundException,
-           InstantiationException, IllegalAccessException
-    {
-        mainFromParent(args);
-    }
 }
 

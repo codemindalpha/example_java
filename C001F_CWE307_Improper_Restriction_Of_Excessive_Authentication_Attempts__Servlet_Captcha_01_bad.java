@@ -1,4 +1,4 @@
-/*
+package testcases.C001F_EXCEAUTH;/*
 Filename : CWE307_Improper_Restriction_Of_Excessive_Authentication_Attempts__Servlet_Captcha_01_bad.java
 */
 
@@ -6,7 +6,6 @@ Filename : CWE307_Improper_Restriction_Of_Excessive_Authentication_Attempts__Ser
 
 import testcasesupport.*;
 
-import testcasesupport.Util;
 import java.util.logging.Logger;
 
 
@@ -14,7 +13,7 @@ import java.util.logging.Logger;
 import javax.servlet.http.*;
 import java.io.*;
 
-public class C001F_CWE307_Improper_Restriction_Of_Excessive_Authentication_Attempts__Servlet_Captcha_01_bad extends AbstractTestCaseServlet
+public class C001F_CWE307_Improper_Restriction_Of_Excessive_Authentication_Attempts__Servlet_Captcha_01_bad
 {
 
     public void bad(HttpServletRequest request, HttpServletResponse response) throws Throwable
@@ -34,17 +33,5 @@ public class C001F_CWE307_Improper_Restriction_Of_Excessive_Authentication_Attem
     }
 
 
-    
-    
-
-    /* Below is the main(). It is only used when building this testcase on
-       its own for testing or for building a binary to usezzzzzzzzz in testing binary
-       analysis tools. It is not used when compiling all the testcases as one
-       application, which is how source code analysis tools are tested. */
-    public static void main(String[] args) throws ClassNotFoundException,
-           InstantiationException, IllegalAccessException
-    {
-        mainFromParent(args);
-    }
 }
 
